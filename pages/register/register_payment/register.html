@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Login</title>
+
+    <script src="https://kit.fontawesome.com/8f6eacc539.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Inter:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.js"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-custom" id="nav-header">
+        <a class="navbar-brand">
+            <div id="logo">FILMFLIX</div>
+        </a>
+    </nav>
+    
+    <div class="card login-card-padding text-white">
+        <div class="card-body">
+            <form action="../../home/index.html">
+                <div class="form-group">
+                    <label for="name">Imię i nazwisko</label>
+                    <input type="text" class="form-control" id="username" placeholder="Wprowadź imię i nazwisko">
+                </div>
+                <div class="form-group">
+                    <label for="card_number">Numer karty</label>
+                    <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" id="card_number" maxlength="16" placeholder="Wprowadź numer karty">
+                </div> 
+                <div class="form-group">
+                    <label for="second_number">CVC</label>
+                    <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' class="form-control" id="cvc" maxlength="3" placeholder="Wprowadź trzy cyfry z tyłu karty">
+                </div>  
+                <div class="form-group">
+                    <label for="second_number">Data ważności karty</label>
+                    <input type="month" class="form-control" id="card_date">
+                </div>      
+                <button type="submit" class="btn-margin">Zarejestruj</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

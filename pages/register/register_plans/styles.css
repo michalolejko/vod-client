@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background: url('../../../resources/backgrounds/login_background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#logo {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: 'Francois One', sans-serif !important;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+.card {
+    margin: 5%;
+    margin-top: 20%;
+    float: none; 
+}
+
+.btn-primary{
+    border-radius: 0;
+    color: white;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.card {
+    box-shadow: 0px 0px 150px black;
+    background-color: rgba(15, 15, 15, 0.9);
+}
+
+.card-text {
+    color: white;
+}

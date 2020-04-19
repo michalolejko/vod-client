@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Login</title>
+
+    <script src="https://kit.fontawesome.com/8f6eacc539.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Inter:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css?v=1.0">
+    <script src="https://npmcdn.com/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.5.1/vue-resource.js"></script>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-custom" id="nav-header">
+        <a class="navbar-brand">
+            <div id="logo">FILMFLIX</div>
+        </a>
+        
+        <div class="collapse navbar-collapse"></div>
+        <form class="form-inline my-2 my-lg-0">
+            <a href="../../login/login.html" id="btn-zarejestruj">Zaloguj się</a>
+        </form>
+    </nav>
+    
+    <div class="card login-card-padding text-white">
+        <div class="card-body">
+            <form action="../register_plans/register.html">
+                <div class="form-group">
+                    <label for="password">E-mail</label>
+                    <input type="password" class="form-control" id="mail" placeholder="Wprowadź e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="username">Nazwa użytkownika</label>
+                    <input type="text" class="form-control" id="username" placeholder="Wprowadź login">
+                </div>
+                <div class="form-group">
+                    <label for="password">Hasło</label>
+                    <input type="password" class="form-control" id="password" placeholder="Wprowadź hasło">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="confirm_password" placeholder="Potwierdź hasło">
+                </div>               
+                <button type="submit" class="btn-margin">Zarejestruj</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

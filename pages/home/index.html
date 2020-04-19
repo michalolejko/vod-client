@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/8f6eacc539.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Inter:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../package/css/swiper.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header-banner-box">
+        <header>
+            <div id="logo">FILMFLIX</div>
+            <div class="menu" id="left-menu">
+                <ul>
+                    <li>
+                        <a href="index.html" id="current-category">Filmy</a>
+                    </li>
+                    <li>
+                        <a href="series.html">Seriale</a>
+                    </li>
+                    <li>
+                        <a href="podcasts.html">Podcasty</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu" id="right-menu">
+                <ul>
+                    <li>
+                        <div class="search-box" id="search-box">
+                            <input type="text" name="" class="search-txt" id="search-txt" placeholder="Wpisz aby wyszukać..."/>
+                            <a class="search-btn" href="#" id="search-btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>                       
+                    </li>
+                    <li>
+                        <a href="index.html">Profil</a>
+                        <ul>
+                            <li>
+                                <a href="../panels/user/user-panel.html">Konto</a>
+                            </li>
+                            <li>
+                                <a href="../login/login.html">Wyloguj się</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div id="banner">
+            <div id="description-box">
+                <h1 id="banner-title">FILMFLIX</h1>
+                <p id="banner-description">
+                    Serwis, w którym masz dostęp do filmów, seriali i podcastów!</br>
+                    Usiądź wygodnie w domowym zaciszu i ciesz się wyborem.</br>
+                    Bez płyt, bez zbędnych opakowań, ze stałym dostępem.</br>
+                </p>
+                <button id="banner-button">
+                    Więcej informacji
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="resources-sliders">
+
+        <body>
+            <p>Najchętniej oglądane</p>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="swiper-slide-1"></div>
+                    <div class="swiper-slide" id="swiper-slide-2"></div>
+                    <div class="swiper-slide" id="swiper-slide-3"></div>
+                    <div class="swiper-slide" id="swiper-slide-4"></div>
+                    <div class="swiper-slide" id="swiper-slide-5"></div>
+                    <div class="swiper-slide" id="swiper-slide-6"></div>
+                    <div class="swiper-slide" id="swiper-slide-7"></div>
+                    <div class="swiper-slide" id="swiper-slide-8"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <p>Komedie</p>
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="comedy-slide-1"></div>
+                    <div class="swiper-slide" id="comedy-slide-2"></div>
+                    <div class="swiper-slide" id="comedy-slide-3"></div>
+                    <div class="swiper-slide" id="comedy-slide-4"></div>
+                    <div class="swiper-slide" id="comedy-slide-5"></div>
+                    <div class="swiper-slide" id="comedy-slide-6"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="../package/js/swiper.min.js"></script>
+    <script src="application.js"></script>
+</body>
+
+</html>
